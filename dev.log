@@ -1,0 +1,2639 @@
+
+> wessaya15@1.0.0 dev
+> next dev
+
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.22.192.1:3000
+✓ Ready in 983ms
+✓ Running next.config.ts took 65ms
+
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+⨯ ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+ GET / 500 in 599ms (next.js: 331ms, application-code: 268ms)
+[browser] Uncaught Error: ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+⨯ ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+ GET / 500 in 32ms (next.js: 11ms, application-code: 21ms)
+⨯ ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+ GET / 500 in 36ms (next.js: 15ms, application-code: 21ms)
+[browser] Uncaught Error: ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[browser] Uncaught Error: ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+⨯ ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+ GET / 500 in 21ms (next.js: 9ms, application-code: 12ms)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+⨯ The directory at "D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev" was deleted.
+
+Deleting this directory removes caches and will cause slower performance.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.22.192.1:3000
+✓ Ready in 1017ms
+✓ Running next.config.ts took 71ms
+⚠ Slow filesystem detected. The benchmark took 220ms. If \\?\D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.contact.css:178:1: Missing closing } at .contact-card__sign
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+    at processMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:711:28)
+    at <unknown> (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:548:13)
+    at WebSocket.handleMessage (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:995:17) (file://D:/مشروعات لبزنس في سوهاج/وصايه الـــ 15/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:642:21)
+○ Compiling / ...
+ GET / 200 in 2.1s (next.js: 407ms, application-code: 1732ms)
+ GET / 200 in 1030ms (next.js: 4ms, application-code: 1025ms)
+ GET / 200 in 588ms (next.js: 4ms, application-code: 584ms)
+ GET / 200 in 359ms (next.js: 3ms, application-code: 356ms)
+✓ Compiled in 125ms
+ GET / 200 in 650ms (next.js: 9ms, application-code: 641ms)
+ GET / 200 in 419ms (next.js: 5ms, application-code: 414ms)
+ GET / 200 in 208ms (next.js: 6ms, application-code: 203ms)
+✓ Compiled in 301ms
+ GET / 200 in 234ms (next.js: 2ms, application-code: 232ms)
+✓ Compiled in 75ms
+ GET / 200 in 636ms (next.js: 6ms, application-code: 631ms)
+ GET / 200 in 461ms (next.js: 4ms, application-code: 457ms)
+ GET / 200 in 242ms (next.js: 4ms, application-code: 238ms)
+✓ Compiled in 347ms
+ GET / 200 in 220ms (next.js: 3ms, application-code: 218ms)
+ GET / 200 in 285ms (next.js: 2ms, application-code: 282ms)
+ GET / 200 in 203ms (next.js: 2ms, application-code: 201ms)
+ GET / 200 in 182ms (next.js: 2ms, application-code: 180ms)
+ GET / 200 in 327ms (next.js: 3ms, application-code: 324ms)
+✓ Compiled in 97ms
+ GET / 200 in 534ms (next.js: 8ms, application-code: 526ms)
+ GET / 200 in 397ms (next.js: 3ms, application-code: 394ms)
+ GET / 200 in 200ms (next.js: 16ms, application-code: 184ms)
+ GET / 200 in 202ms (next.js: 2ms, application-code: 200ms)
+✓ Compiled in 274ms
+ GET / 200 in 242ms (next.js: 2ms, application-code: 240ms)
+✓ Compiled in 343ms
+✓ Compiled in 334ms
+ GET / 200 in 310ms (next.js: 3ms, application-code: 307ms)
+✓ Compiled in 316ms
+✓ Compiled in 267ms
+ GET / 200 in 189ms (next.js: 1.8ms, application-code: 188ms)
+✓ Compiled in 252ms
+ GET / 200 in 199ms (next.js: 3ms, application-code: 196ms)
+✓ Compiled in 254ms
+ GET / 200 in 216ms (next.js: 3ms, application-code: 213ms)
+✓ Compiled in 236ms
+ GET / 200 in 199ms (next.js: 2ms, application-code: 197ms)
+✓ Compiled in 295ms
+✓ Compiled in 163ms
+[browser] ./src/components/featured-list.tsx:67:179
+Error: Expected '</', got '<eof>'
+  65 | ...
+  66 | ...
+> 67 | ...sm:overflow-visible sm:px-0 lg:grid-cols-3">
+     |                                               ^
+  68 | ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/featured-list.tsx:67:179
+Error: Expected '</', got '<eof>'
+  65 | ...
+  66 | ...
+> 67 | ...sm:overflow-visible sm:px-0 lg:grid-cols-3">
+     |                                               ^
+  68 | ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+✓ Compiled in 216ms
+[browser] ./src/components/featured-list.tsx:155:11
+Error: Expected '</', got '<eof>'
+  153 |             </article>
+  154 |           );
+> 155 |         })}
+      |           ^
+  156 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+✓ Compiled in 276ms
+ GET / 200 in 652ms (next.js: 11ms, application-code: 641ms)
+ GET / 200 in 418ms (next.js: 4ms, application-code: 414ms)
+ GET / 200 in 246ms (next.js: 5ms, application-code: 241ms)
+✓ Compiled in 123ms
+✓ Compiled in 132ms
+✓ Compiled in 97ms
+ GET / 200 in 380ms (next.js: 4ms, application-code: 376ms)
+[browser] ./src/components/featured-list.tsx:67:179
+Error: Expected '</', got '<eof>'
+  65 | ...
+  66 | ...
+> 67 | ...sm:overflow-visible sm:px-0 lg:grid-cols-3">
+     |                                               ^
+  68 | ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/featured-list.tsx:67:179
+Error: Expected '</', got '<eof>'
+  65 | ...
+  66 | ...
+> 67 | ...sm:overflow-visible sm:px-0 lg:grid-cols-3">
+     |                                               ^
+  68 | ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/featured-list.tsx:155:11
+Error: Expected '</', got '<eof>'
+  153 |             </article>
+  154 |           );
+> 155 |         })}
+      |           ^
+  156 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+✓ Compiled in 149ms
+ GET / 200 in 567ms (next.js: 4ms, application-code: 563ms)
+ GET / 200 in 399ms (next.js: 4ms, application-code: 396ms)
+ GET / 200 in 214ms (next.js: 4ms, application-code: 209ms)
+✓ Compiled in 84ms
+✓ Compiled in 277ms
+✓ Compiled in 268ms
+ GET / 200 in 243ms (next.js: 3ms, application-code: 240ms)
+[browser] ./src/components/featured-list.tsx:67:179
+Error: Expected '</', got '<eof>'
+  65 | ...
+  66 | ...
+> 67 | ...sm:overflow-visible sm:px-0 lg:grid-cols-3">
+     |                                               ^
+  68 | ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/featured-list.tsx:67:179
+Error: Expected '</', got '<eof>'
+  65 | ...
+  66 | ...
+> 67 | ...sm:overflow-visible sm:px-0 lg:grid-cols-3">
+     |                                               ^
+  68 | ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/featured-list.tsx:155:11
+Error: Expected '</', got '<eof>'
+  153 |             </article>
+  154 |           );
+> 155 |         })}
+      |           ^
+  156 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/featured-list.tsx
+    ./src/components/featured.tsx
+    ./src/app/page.tsx 
+✓ Compiled in 119ms
+ GET / 200 in 290ms (next.js: 4ms, application-code: 286ms)
+ GET / 200 in 312ms (next.js: 4ms, application-code: 308ms)
+ GET / 200 in 224ms (next.js: 1.6ms, application-code: 223ms)
+ GET / 200 in 301ms (next.js: 3ms, application-code: 298ms)
+✓ Compiled in 96ms
+⨯ ReferenceError: pizzaCraft is not defined
+    at Module.eval (src\components\featured-list.tsx:27:24)
+  25 |   "meal-wessaya-family": trayChicken,
+  26 |   "roast-wessaya": burger,
+> 27 |   "pizza-mix-wessaya": pizzaCraft,
+     |                        ^
+  28 |   "meal-mix-grill": diningDetail,
+  29 |   "big-roast-wessaya": heroGrill,
+  30 | }; {
+  digest: '149196287'
+}
+ GET / 200 in 198ms (next.js: 12ms, application-code: 186ms)
+⨯ ReferenceError: pizzaCraft is not defined
+    at Module.eval (src\components\featured-list.tsx:27:24)
+  25 |   "meal-wessaya-family": trayChicken,
+  26 |   "roast-wessaya": burger,
+> 27 |   "pizza-mix-wessaya": pizzaCraft,
+     |                        ^
+  28 |   "meal-mix-grill": diningDetail,
+  29 |   "big-roast-wessaya": heroGrill,
+  30 | }; {
+  digest: '149196287'
+}
+ GET / 200 in 491ms (next.js: 11ms, application-code: 479ms)
+⨯ ReferenceError: pizzaCraft is not defined
+    at Module.eval (src\components\featured-list.tsx:27:24)
+  25 |   "meal-wessaya-family": trayChicken,
+  26 |   "roast-wessaya": burger,
+> 27 |   "pizza-mix-wessaya": pizzaCraft,
+     |                        ^
+  28 |   "meal-mix-grill": diningDetail,
+  29 |   "big-roast-wessaya": heroGrill,
+  30 | }; {
+  digest: '149196287'
+}
+ GET / 200 in 564ms (next.js: 9ms, application-code: 555ms)
+ GET / 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET / 200 in 1175ms (next.js: 2ms, application-code: 1173ms)
+ GET / 200 in 618ms (next.js: 4ms, application-code: 614ms)
+⚠ Fast Refresh had to perform a full reload when ./src/components/featured-list.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./src/components/featured-list.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./src/components/featured-list.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+✓ Compiled in 200ms
+ GET / 200 in 1038ms (next.js: 4ms, application-code: 1034ms)
+ GET / 200 in 765ms (next.js: 10ms, application-code: 755ms)
+ GET / 200 in 473ms (next.js: 3ms, application-code: 470ms)
+ GET / 200 in 246ms (next.js: 2ms, application-code: 244ms)
+✓ Compiled in 146ms
+⨯ ReferenceError: trayChicken is not defined
+    at Module.eval (src\components\featured-list.tsx:24:26)
+  22 | const cardImages: Record<string, StaticImageData> = {
+  23 |   "meal-wessaya-charcoal": trayMixed,
+> 24 |   "meal-wessaya-family": trayChicken,
+     |                          ^
+  25 |   "roast-wessaya": burger,
+  26 |   "pizza-mix-wessaya": pizzaCraft,
+  27 |   "meal-mix-grill": diningDetail, {
+  digest: '2657825402'
+}
+⨯ ReferenceError: trayChicken is not defined
+    at Module.eval (src\components\featured-list.tsx:24:26)
+  22 | const cardImages: Record<string, StaticImageData> = {
+  23 |   "meal-wessaya-charcoal": trayMixed,
+> 24 |   "meal-wessaya-family": trayChicken,
+     |                          ^
+  25 |   "roast-wessaya": burger,
+  26 |   "pizza-mix-wessaya": pizzaCraft,
+  27 |   "meal-mix-grill": diningDetail, {
+  digest: '2657825402'
+}
+ GET / 200 in 745ms (next.js: 12ms, application-code: 733ms)
+⨯ ReferenceError: trayChicken is not defined
+    at Module.eval (src\components\featured-list.tsx:24:26)
+  22 | const cardImages: Record<string, StaticImageData> = {
+  23 |   "meal-wessaya-charcoal": trayMixed,
+> 24 |   "meal-wessaya-family": trayChicken,
+     |                          ^
+  25 |   "roast-wessaya": burger,
+  26 |   "pizza-mix-wessaya": pizzaCraft,
+  27 |   "meal-mix-grill": diningDetail, {
+  digest: '2657825402'
+}
+ GET / 200 in 517ms (next.js: 9ms, application-code: 508ms)
+ GET / 200 in 1462ms (next.js: 4ms, application-code: 1458ms)
+ GET / 200 in 945ms (next.js: 3ms, application-code: 943ms)
+ GET / 200 in 440ms (next.js: 3ms, application-code: 437ms)
+⚠ Fast Refresh had to perform a full reload when ./src/components/featured-list.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./src/components/featured-list.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./src/components/featured-list.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+✓ Compiled in 121ms
+ GET / 200 in 1011ms (next.js: 4ms, application-code: 1007ms)
+ GET / 200 in 730ms (next.js: 5ms, application-code: 725ms)
+ GET / 200 in 383ms (next.js: 3ms, application-code: 380ms)
+ GET / 200 in 211ms (next.js: 3ms, application-code: 208ms)
+✓ Compiled in 115ms
+ GET / 200 in 445ms (next.js: 24ms, application-code: 421ms)
+ GET / 200 in 276ms (next.js: 2ms, application-code: 274ms)
+✓ Compiled in 81ms
+✓ Compiled in 230ms
+ GET / 200 in 219ms (next.js: 3ms, application-code: 216ms)
+✓ Compiled in 296ms
+ GET / 200 in 209ms (next.js: 3ms, application-code: 206ms)
+✓ Compiled in 118ms
+ GET / 200 in 226ms (next.js: 3ms, application-code: 224ms)
+✓ Compiled in 124ms
+ GET / 200 in 343ms (next.js: 22ms, application-code: 321ms)
+✓ Compiled in 180ms
+ GET / 200 in 234ms (next.js: 3ms, application-code: 232ms)
+✓ Compiled in 92ms
+ GET / 200 in 221ms (next.js: 5ms, application-code: 216ms)
+✓ Compiled in 195ms
+ GET / 200 in 204ms (next.js: 3ms, application-code: 201ms)
+✓ Compiled in 83ms
+ GET / 200 in 194ms (next.js: 3ms, application-code: 191ms)
+ GET / 200 in 358ms (next.js: 3ms, application-code: 356ms)
+✓ Compiled in 613ms
+ GET / 200 in 328ms (next.js: 1.5ms, application-code: 327ms)
+✓ Compiled in 279ms
+✓ Compiled in 278ms
+ GET / 200 in 332ms (next.js: 3ms, application-code: 329ms)
+✓ Compiled in 667ms
+ GET / 200 in 949ms (next.js: 3ms, application-code: 946ms)
+ GET / 200 in 315ms (next.js: 3ms, application-code: 312ms)
+[browser] Image with src "/_next/static/media/logo.1mfbmkp7zsuru.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 195ms (next.js: 1.9ms, application-code: 193ms)
+ GET / 200 in 291ms (next.js: 3ms, application-code: 289ms)
+✓ Compiled in 468ms
+⨯ ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (src\components\menu\menu-notes.tsx:10:10)
+   8 |     <aside className="menu-source-card" aria-label="مصدر الأسعار">
+   9 |       <div className="menu-source-card__top">
+> 10 |         <UtensilsIcon className="size-5" />
+     |          ^
+  11 |         <span>مصدر المنيو</span>
+  12 |       </div>
+  13 |       <p className="menu-source-card__title">آخر منيو منشور</p> {
+  digest: '590550536'
+}
+⨯ ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (src\components\menu\menu-notes.tsx:10:10)
+   8 |     <aside className="menu-source-card" aria-label="مصدر الأسعار">
+   9 |       <div className="menu-source-card__top">
+> 10 |         <UtensilsIcon className="size-5" />
+     |          ^
+  11 |         <span>مصدر المنيو</span>
+  12 |       </div>
+  13 |       <p className="menu-source-card__title">آخر منيو منشور</p> {
+  digest: '590550536'
+}
+⨯ ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (src\components\menu\menu-notes.tsx:10:10)
+   8 |     <aside className="menu-source-card" aria-label="مصدر الأسعار">
+   9 |       <div className="menu-source-card__top">
+> 10 |         <UtensilsIcon className="size-5" />
+     |          ^
+  11 |         <span>مصدر المنيو</span>
+  12 |       </div>
+  13 |       <p className="menu-source-card__title">آخر منيو منشور</p> {
+  digest: '590550536'
+}
+ GET / 200 in 507ms (next.js: 5ms, application-code: 501ms)
+ GET / 200 in 352ms (next.js: 3ms, application-code: 349ms)
+ GET / 200 in 219ms (next.js: 4ms, application-code: 215ms)
+✓ Compiled in 125ms
+ GET / 200 in 607ms (next.js: 4ms, application-code: 603ms)
+ GET / 200 in 422ms (next.js: 4ms, application-code: 419ms)
+ GET / 200 in 224ms (next.js: 8ms, application-code: 216ms)
+[browser] ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (.next\dev\server\chunks\ssr\[root-of-the-server]__03hl7a1q7zyaf._.js:24:273) (src/app/error.tsx:14:13)
+[browser] ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (.next\dev\server\chunks\ssr\[root-of-the-server]__03hl7a1q7zyaf._.js:24:273) (src/app/error.tsx:14:13)
+✓ Compiled in 338ms
+ GET / 200 in 264ms (next.js: 2ms, application-code: 262ms)
+✓ Compiled in 279ms
+ GET / 200 in 408ms (next.js: 4ms, application-code: 405ms)
+✓ Compiled in 231ms
+ GET / 200 in 237ms (next.js: 1.7ms, application-code: 235ms)
+✓ Compiled in 214ms
+✓ Compiled in 218ms
+ GET / 200 in 308ms (next.js: 3ms, application-code: 305ms)
+ GET / 200 in 213ms (next.js: 2ms, application-code: 211ms)
+ GET / 200 in 369ms (next.js: 3ms, application-code: 366ms)
+[browser] Image with src "/_next/static/media/logo.1mfbmkp7zsuru.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+✓ Compiled in 263ms
+✓ Compiled in 240ms
+ GET / 200 in 292ms (next.js: 1.4ms, application-code: 291ms)
+ GET / 200 in 236ms (next.js: 3ms, application-code: 234ms)
+✓ Compiled in 296ms
+ GET / 200 in 424ms (next.js: 12ms, application-code: 412ms)
+[browser] Image with src "/_next/static/media/logo.1mfbmkp7zsuru.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 234ms (next.js: 3ms, application-code: 231ms)
+ GET / 200 in 347ms (next.js: 3ms, application-code: 344ms)
+[browser] Image with src "/_next/static/media/logo.1mfbmkp7zsuru.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+✓ Compiled in 476ms
+[browser] ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (.next\dev\server\chunks\ssr\[root-of-the-server]__03hl7a1q7zyaf._.js:24:273) (src/app/error.tsx:14:13)
+[browser] ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (.next\dev\server\chunks\ssr\[root-of-the-server]__03hl7a1q7zyaf._.js:24:273) (src/app/error.tsx:14:13)
+ GET / 200 in 284ms (next.js: 2ms, application-code: 282ms)
+[browser] ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (.next\dev\server\chunks\ssr\[root-of-the-server]__03hl7a1q7zyaf._.js:24:273) (src/app/error.tsx:14:13)
+[browser] ReferenceError: UtensilsIcon is not defined
+    at MenuSourceCard (.next\dev\server\chunks\ssr\[root-of-the-server]__03hl7a1q7zyaf._.js:24:273) (src/app/error.tsx:14:13)
+ GET / 200 in 268ms (next.js: 1.9ms, application-code: 266ms)
+[browser] Image with src "/_next/static/media/logo.1mfbmkp7zsuru.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+⨯ The directory at "D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev" was deleted.
+
+Deleting this directory removes caches and will cause slower performance.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.22.192.1:3000
+✓ Ready in 1475ms
+✓ Running next.config.ts took 68ms
+
+○ Compiling / ...
+ GET / 200 in 1828ms (next.js: 579ms, application-code: 1249ms)
+ GET / 200 in 803ms (next.js: 3ms, application-code: 800ms)
+ GET / 200 in 797ms (next.js: 4ms, application-code: 793ms)
+ GET / 200 in 199ms (next.js: 2ms, application-code: 197ms)
+⨯ The directory at "D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev" was deleted.
+
+Deleting this directory removes caches and will cause slower performance.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.22.192.1:3000
+✓ Ready in 1428ms
+✓ Running next.config.ts took 68ms
+
+○ Compiling / ...
+ GET / 200 in 1586ms (next.js: 322ms, application-code: 1264ms)
+ GET / 200 in 765ms (next.js: 4ms, application-code: 761ms)
+ GET / 200 in 719ms (next.js: 3ms, application-code: 717ms)
+ GET / 200 in 210ms (next.js: 2ms, application-code: 207ms)
+✓ Compiled in 263ms
+ GET / 200 in 203ms (next.js: 2ms, application-code: 200ms)
+ GET / 200 in 240ms (next.js: 3ms, application-code: 238ms)
+e [CssSyntaxError]: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [2m[at Ie (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\tailwindcss\dist\lib.js:3:5875)][0m
+    [2m[at D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\tailwindcss\dist\lib.js:21:2972][0m
+    at async Promise.all (index 2)
+    [2m[at async Tr (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\tailwindcss\dist\lib.js:21:3115)][0m
+    [2m[at async On (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\tailwindcss\dist\lib.js:32:2597)][0m
+    [2m[at async _n (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\tailwindcss\dist\lib.js:38:631)][0m
+    [2m[at async an (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\node\dist\index.js:10:3415)][0m
+    [2m[at async E (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:3996)][0m
+    [2m[at async Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:4931)][0m
+    [2m[at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)][0m {
+  loc: [
+    {
+      file: 'D:\\مشروعات لبزنس في سوهاج\\وصايه الـــ 15\\src\\app\\globals.deco.css',
+      code: '﻿/* ---------- Per-section background decoration ---------- */\r\n' +
+        '\r\n' +
+        '.section-deco {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset: 0;\r\n' +
+        '  z-index: 0;\r\n' +
+        '  overflow: hidden;\r\n' +
+        '  pointer-events: none;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-deco__base {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset: 0;\r\n' +
+        '  background: inherit;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-deco__inner {\r\n' +
+        '  position: relative;\r\n' +
+        '  height: 100%;\r\n' +
+        '  max-width: var(--container);\r\n' +
+        '  margin-inline: auto;\r\n' +
+        '  padding-inline: clamp(1.15rem, 4vw, 2.75rem);\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* Oversized brand seal: inline-start of the section. */\r\n' +
+        '.section-deco__logo {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset-block-start: clamp(1.5rem, 4vw, 3.5rem);\r\n' +
+        '  inset-inline-start: clamp(-3rem, -2vw, 1rem);\r\n' +
+        '  width: clamp(13rem, 26vw, 24rem);\r\n' +
+        '  aspect-ratio: 1;\r\n' +
+        '  opacity: 0.75;\r\n' +
+        '  transform: rotate(-11deg);\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-deco__logo img {\r\n' +
+        '  width: 100%;\r\n' +
+        '  height: 100%;\r\n' +
+        '  object-fit: contain;\r\n' +
+        '  filter: grayscale(1) brightness(0.9);\r\n' +
+        '  opacity: 0.14;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* Latin name running along the inline end. */\r\n' +
+        '.section-deco__word {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset-block-start: 50%;\r\n' +
+        '  inset-inline-end: -1.4rem;\r\n' +
+        '  transform: translateY(-50%) rotate(90deg);\r\n' +
+        '  transform-origin: center;\r\n' +
+        '  font-family: var(--font-latin);\r\n' +
+        '  font-size: clamp(0.66rem, 0.9vw, 0.75rem);\r\n' +
+        '  font-weight: 700;\r\n' +
+        '  letter-spacing: 0.6em;\r\n' +
+        '  text-transform: uppercase;\r\n' +
+        '  color: currentColor;\r\n' +
+        '  opacity: 0.22;\r\n' +
+        '  white-space: nowrap;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* Arabic name as a huge background word, bottom inline-start. */\r\n' +
+        '.section-deco__arabic {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset-block-end: -0.3em;\r\n' +
+        '  inset-inline-start: clamp(-1rem, 0vw, 1rem);\r\n' +
+        '  font-family: var(--font-display);\r\n' +
+        '  font-size: clamp(6rem, 18vw, 15rem);\r\n' +
+        '  font-weight: 700;\r\n' +
+        '  line-height: 1;\r\n' +
+        '  white-space: nowrap;\r\n' +
+        '  color: transparent;\r\n' +
+        '  -webkit-text-stroke: 1.5px currentColor;\r\n' +
+        '  opacity: 0.14;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* Year, bottom inline-end. */\r\n' +
+        '.section-deco__year {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset-block-end: 0.5rem;\r\n' +
+        '  inset-inline-end: clamp(1.15rem, 4vw, 2.75rem);\r\n' +
+        '  font-family: var(--font-latin);\r\n' +
+        '  font-size: clamp(2.6rem, 7vw, 5.5rem);\r\n' +
+        '  font-weight: 800;\r\n' +
+        '  letter-spacing: 0.06em;\r\n' +
+        '  line-height: 1;\r\n' +
+        '  color: transparent;\r\n' +
+        '  -webkit-text-stroke: 1px currentColor;\r\n' +
+        '  opacity: 0.2;\r\n' +
+        '  font-variant-numeric: tabular-nums;\r\n' +
+        '  white-space: nowrap;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* Corner rules: one per section, marking the frame. */\r\n' +
+        '.section-deco__rule {\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset-block-start: clamp(1.15rem, 2.5vw, 1.9rem);\r\n' +
+        '  inset-inline: clamp(1.15rem, 4vw, 2.75rem);\r\n' +
+        '  height: 1px;\r\n' +
+        '  background: currentColor;\r\n' +
+        '  opacity: 0.14;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-deco__rule::after {\r\n' +
+        '  content: "";\r\n' +
+        '  position: absolute;\r\n' +
+        '  inset-block-start: 100%;\r\n' +
+        '  inset-inline-end: 0;\r\n' +
+        '  width: 1px;\r\n' +
+        '  height: clamp(2.5rem, 6vw, 4.5rem);\r\n' +
+        '  background: currentColor;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '@media (max-width: 900px) {\r\n' +
+        '  .section-deco__word {\r\n' +
+        '    display: none;\r\n' +
+        '  }\r\n' +
+        '\r\n' +
+        '  .section-deco__logo {\r\n' +
+        '    width: 11rem;\r\n' +
+        '    inset-block-start: 1rem;\r\n' +
+        '  }\r\n' +
+        '\r\n' +
+        '  .section-deco__logo img {\r\n' +
+        '    opacity: 0.16;\r\n' +
+        '  }\r\n' +
+        '\r\n' +
+        '  .section-deco__arabic {\r\n' +
+        '    font-size: 4.5rem;\r\n' +
+        '  }\r\n' +
+        '\r\n' +
+        '  .section-deco__year {\r\n' +
+        '    font-size: 2.4rem;\r\n' +
+        '  }\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '@media (max-width: 560px) {\r\n' +
+        '  .section-deco__arabic {\r\n' +
+        '    font-size: 3.4rem;\r\n' +
+        '  }\r\n' +
+        '\r\n' +
+        '  .section-deco__year {\r\n' +
+        '    display: none;\r\n' +
+        '  }\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* ---------- Facebook hook quotes ---------- */\r\n' +
+        '\r\n' +
+        '.section-hook {\r\n' +
+        '  position: relative;\r\n' +
+        '  display: grid;\r\n' +
+        '  grid-template-columns: auto minmax(0, 1fr);\r\n' +
+        '  align-items: start;\r\n' +
+        '  gap: 0 0.6rem;\r\n' +
+        '  max-width: 34rem;\r\n' +
+        '  margin: 1.4rem 0 0;\r\n' +
+        '  padding-top: 1.1rem;\r\n' +
+        '  border-top: 1px solid color-mix(in srgb, currentColor 22%, transparent);\r\n' +
+        '  color: inherit;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-hook__mark {\r\n' +
+        '  grid-row: 1 / span 2;\r\n' +
+        '  font-family: var(--font-display);\r\n' +
+        '  font-size: 2.2rem;\r\n' +
+        '  line-height: 0.85;\r\n' +
+        '  color: var(--color-pomegranate);\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-hook__text {\r\n' +
+        '  font-family: var(--font-display);\r\n' +
+        '  font-size: clamp(1.05rem, 1.6vw, 1.3rem);\r\n' +
+        '  font-weight: 600;\r\n' +
+        '  line-height: 1.45;\r\n' +
+        '  color: inherit;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.section-hook__source {\r\n' +
+        '  grid-column: 2;\r\n' +
+        '  margin-top: 0.35rem;\r\n' +
+        '  font-family: var(--font-latin);\r\n' +
+        '  font-size: 0.56rem;\r\n' +
+        '  font-weight: 600;\r\n' +
+        '  letter-spacing: 0.14em;\r\n' +
+        '  text-transform: uppercase;\r\n' +
+        '  opacity: 0.55;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.gallery .section-hook__mark,\r\n' +
+        '.delivery .section-hook__mark {\r\n' +
+        '  color: var(--color-brass);\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '@media (max-width: 560px) {\r\n' +
+        '  .section-hook__text {\r\n' +
+        '    font-size: 1rem;\r\n' +
+        '  }\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* ---------- Section wrapper (guarantees the layers stack) ---------- */\r\n' +
+        '\r\n' +
+        '.has-deco {\r\n' +
+        '  position: relative;\r\n' +
+        '  isolation: isolate;\r\n' +
+        '  overflow: hidden;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.has-deco > .section-deco {\r\n' +
+        '  z-index: 0;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '.has-deco > .container-page {\r\n' +
+        '  position: relative;\r\n' +
+        '  z-index: 2;\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* The decoration paints the section surface itself, so the watermark is\r\n' +
+        '   never hidden under an opaque section background. */\r\n' +
+        '.has-deco > .section-deco {\r\n' +
+        '  background: var(--color-forest);\r\n' +
+        '  color: var(--color-cream);\r\n' +
+        '\r\n' +
+        '.featured.has-deco > .section-deco {\r\n' +
+        '  background: var(--color-forest);\r\n' +
+        '  color: var(--color-cream);\r\n' +
+        '\r\n' +
+        '.delivery.has-deco > .section-deco,\r\n' +
+        '.gallery.has-deco > .section-deco {\r\n' +
+        '  background: var(--color-forest);\r\n' +
+        '  color: var(--color-cream);\r\n' +
+        '  background: var(--color-forest);\r\n' +
+        '  color: var(--color-cream);\r\n' +
+        '.contact.has-deco > .section-deco {\r\n' +
+        '  background: var(--color-limestone);\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '/* Sections keep their own texture behind the decoration. */\r\n' +
+        '.featured.has-deco,\r\n' +
+        '.menu-section.has-deco,\r\n' +
+        '.story.has-deco,\r\n' +
+        '.delivery.has-deco,\r\n' +
+        '.gallery.has-deco,\r\n' +
+        '.contact.has-deco {\r\n' +
+        '  background: transparent;\r\n' +
+        '}\r\n' +
+        '\r\n'
+    },
+    4931,
+    4931
+  ]
+}
+✓ Compiled in 201ms
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+⨯ ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+ GET / 500 in 2.9s (next.js: 2.6s, application-code: 267ms)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] Uncaught Error: ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+
+thread 'tokio-rt-worker' (7184) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:1105:14:
+Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+
+Caused by:
+    0: Unable to open static sorted file referenced from 00000046.meta
+    1: failed to open file `\\?\D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev\cache\turbopack\v16.4.3-29bbeab0\00000041.sst`: The system cannot find the path specified. (os error 3)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\jamm7\AppData\Local\Temp\next-panic-83285b86c0c7fccfcff44294f4301abb.log.
+
+To help make Turbopack better, report this error by ]8;;https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Failed%20to%20lookup%20task%20ids%3A%20Looking%20up%20task%20id%20for%20NativeFunction%20%7B%20name%3A%20%22get_written_endpoint_with_issues_operation%22%2C%20global_name%3A%20%22next_napi_bindings%3A%3Anext_api%3A%3Aendpoint%3A%3Aget_written_endpoint_with_issues_operation%22%2C%20..%20%7D%28this%3DNone%29%20from%20database%20failed&body=Turbopack%20version%3A%20%6029bbeab0%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AFailed%20to%20lookup%20task%20ids%3A%20Looking%20up%20task%20id%20for%20NativeFunction%20%7B%20name%3A%20%22get_written_endpoint_with_issues_operation%22%2C%20global_name%3A%20%22next_napi_bindings%3A%3Anext_api%3A%3Aendpoint%3A%3Aget_written_endpoint_with_issues_operation%22%2C%20..%20%7D%28this%3DNone%29%20from%20database%20failed%0A%0ADebug%20info%3A%0A-%20Failed%20to%20lookup%20task%20ids%3A%20Looking%20up%20task%20id%20for%20NativeFunction%20%7B%20name%3A%20%22get_written_endpoint_with_issues_operation%22%2C%20global_name%3A%20%22next_napi_bindings%3A%3Anext_api%3A%3Aendpoint%3A%3Aget_written_endpoint_with_issues_operation%22%2C%20..%20%7D%28this%3DNone%29%20from%20database%20failed%0A%20%20%0A%20%20Caused%20by%3A%0A%20%20%20%20%20%200%3A%20Unable%20to%20open%20static%20sorted%20file%20referenced%20from%2000000046.meta%0A%20%20%20%20%20%201%3A%20failed%20to%20open%20file%20%60%5C%5C%3F%5CD%3A%5C%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7%D8%AA%20%D9%84%D8%A8%D8%B2%D9%86%D8%B3%20%D9%81%D9%8A%20%D8%B3%D9%88%D9%87%D8%A7%D8%AC%5C%D9%88%D8%B5%D8%A7%D9%8A%D9%87%20%D8%A7%D9%84%D9%80%D9%80%D9%80%2015%5C.next%5Cdev%5Ccache%5Cturbopack%5Cv16.4.3-29bbeab0%5C00000041.sst%60%3A%20The%20system%20cannot%20find%20the%20path%20specified.%20%28os%20error%203%29%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace\clicking here.]8;;\
+-----
+
+
+thread 'tokio-rt-worker' (7184) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:1105:14:
+Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+
+Caused by:
+    0: Unable to open static sorted file referenced from 00000046.meta
+    1: failed to open file `\\?\D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev\cache\turbopack\v16.4.3-29bbeab0\00000040.sst`: The system cannot find the path specified. (os error 3)
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+Error [TurbopackInternalError]: Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+
+Debug info:
+- Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+  
+  Caused by:
+      0: Unable to open static sorted file referenced from 00000046.meta
+      1: failed to open file `\\?\D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev\cache\turbopack\v16.4.3-29bbeab0\00000040.sst`: The system cannot find the path specified. (os error 3)
+    at <unknown> (TurbopackInternalError: Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed) {
+  location: 'turbopack\\crates\\turbo-tasks-backend\\src\\backend\\operation\\mod.rs:1105:14'
+}
+
+thread 'tokio-rt-worker' (7184) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:1105:14:
+Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+
+Caused by:
+    0: Unable to open static sorted file referenced from 00000046.meta
+    1: failed to open file `\\?\D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev\cache\turbopack\v16.4.3-29bbeab0\00000040.sst`: The system cannot find the path specified. (os error 3)
+Error [TurbopackInternalError]: Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+
+Debug info:
+- Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed
+  
+  Caused by:
+      0: Unable to open static sorted file referenced from 00000046.meta
+      1: failed to open file `\\?\D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\.next\dev\cache\turbopack\v16.4.3-29bbeab0\00000040.sst`: The system cannot find the path specified. (os error 3)
+    at <unknown> (TurbopackInternalError: Failed to lookup task ids: Looking up task id for NativeFunction { name: "get_written_endpoint_with_issues_operation", global_name: "next_napi_bindings::next_api::endpoint::get_written_endpoint_with_issues_operation", .. }(this=None) from database failed) {
+  location: 'turbopack\\crates\\turbo-tasks-backend\\src\\backend\\operation\\mod.rs:1105:14'
+}
+ GET / 500 in 22ms
+ GET / 500 in 22ms
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+[browser] ./src/app/globals.css
+Error: Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.css:1:1: D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\src\app\globals.deco.css:226:1: Missing closing } at .delivery.has-deco > .section-deco, .gallery.has-deco > .section-deco
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:166:32)]
+    [at Object.Once (D:\مشروعات لبزنس في سوهاج\وصايه الـــ 15\node_modules\@tailwindcss\postcss\dist\index.js:10:7013)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:299:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts?config=[project]/postcss.config.mjs:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 

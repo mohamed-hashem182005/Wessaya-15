@@ -1,0 +1,219 @@
+/* ---------- Story ---------- */
+
+.story {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  border-top: 1px solid var(--color-rule);
+}
+
+/* This section sits on the light "paper" surface, so every type token has to
+   be an ink token. Brass is decoration only on light backgrounds. */
+.story .section-title {
+  color: var(--color-ink);
+}
+
+.story .section-title__accent {
+  color: var(--color-pomegranate);
+}
+
+.story .eyebrow {
+  color: var(--color-pomegranate);
+}
+
+.story__ghost {
+  position: absolute;
+  inset-inline-start: -3rem;
+  bottom: -7rem;
+  z-index: -1;
+  font-family: var(--font-latin);
+  font-size: clamp(18rem, 28vw, 34rem);
+  font-weight: 800;
+  line-height: 0.8;
+  letter-spacing: -0.04em;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-brass);
+  opacity: 0.22;
+  pointer-events: none;
+  user-select: none;
+}
+
+.story__grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.94fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.story__copy {
+  max-width: 42rem;
+}
+
+.story__text {
+  margin-bottom: 1.75rem;
+}
+
+.story__text p {
+  margin: 0 0 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: var(--color-ink-soft);
+}
+
+.story__text p:last-child {
+  margin-bottom: 0;
+}
+
+.story__stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.75rem;
+  padding-block: 1rem;
+  border-block: 1px solid var(--color-rule);
+}
+
+.story__stats div {
+  min-width: 0;
+}
+
+.story__stats dt {
+  margin-bottom: 0.2rem;
+  font-size: 0.65rem;
+  color: var(--color-ink-soft);
+}
+
+.story__stats dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.story__quote {
+  position: relative;
+  margin: 0 0 1.1rem;
+  padding: 0.15rem 0 0.15rem 0;
+  padding-inline-start: 1rem;
+  border-inline-start: 2px solid var(--color-brass);
+}
+
+.story__quote p {
+  margin: 0 0 0.2rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+  font-weight: 600;
+  color: var(--color-pomegranate-deep);
+}
+
+.story__quote footer {
+  font-size: 0.66rem;
+  color: var(--color-ink-soft);
+}
+
+.story__source {
+  margin: 0;
+  font-size: 0.64rem;
+  line-height: 1.6;
+  color: var(--color-ink-soft);
+}
+
+.story__media {
+  position: relative;
+  display: block;
+  padding-block-end: 1.5rem;
+}
+
+.story__media::before {
+  content: "";
+  position: absolute;
+  inset-block: 1.25rem 0.25rem;
+  inset-inline: 0 -0.6rem;
+  border: 1px solid var(--color-brass);
+  pointer-events: none;
+}
+
+.story__image {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-forest);
+}
+
+.story__image--main {
+  width: 100%;
+  min-height: clamp(24rem, 44vw, 34rem);
+}
+
+.story__image--small {
+  position: absolute;
+  inset-inline-end: -0.9rem;
+  bottom: 1.5rem;
+  z-index: 1;
+  width: 38%;
+  height: clamp(10rem, 18vw, 14rem);
+  min-height: 0;
+  margin: 0;
+  border: 4px solid var(--color-paper);
+  box-shadow: 0 18px 34px rgba(11, 20, 16, 0.18);
+}
+
+.story__img {
+  object-fit: cover;
+  filter: saturate(0.92) contrast(1.03);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.story__image:hover .story__img {
+  transform: scale(1.03);
+}
+
+.story__caption {
+  position: absolute;
+  inset-inline: 0.75rem;
+  bottom: 0.65rem;
+  font-size: 0.62rem;
+  font-weight: 500;
+  color: var(--color-cream);
+  text-shadow: 0 1px 8px rgba(11, 20, 16, 0.8);
+}
+
+.story__seal {
+  position: absolute;
+  inset-inline-start: -0.9rem;
+  bottom: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.05rem;
+  min-width: 5.4rem;
+  padding: 0.7rem 0.7rem 0.75rem;
+  background: var(--color-forest);
+  color: var(--color-cream);
+  border: 1px solid var(--color-brass);
+  box-shadow: 0 14px 30px rgba(11, 20, 16, 0.18);
+}
+
+.story__seal-kicker,
+.story__seal-name {
+  font-family: var(--font-latin);
+  font-size: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+}
+
+.story__seal strong {
+  font-family: var(--font-latin);
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-cream);
+  font-variant-numeric: tabular-nums;
+}
+

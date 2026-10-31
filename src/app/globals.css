@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@import "./globals.foundation.css";
+@import "./globals.deco.css";
+@import "./globals.typography.css";
+@import "./globals.header.css";
+@import "./globals.hero.css";
+@import "./globals.features.css";
+@import "./globals.menu.css";
+@import "./globals.menu-page.css";
+@import "./globals.dialog.css";
+@import "./globals.story.css";
+@import "./globals.gallery.css";
+@import "./globals.delivery.css";
+@import "./globals.contact.css";
+@import "./globals.footer.css";
+@import "./globals.cart.css";
+@import "./globals.states.css";
+@import "./globals.motion.css";
+@import "./globals.responsive.css";

@@ -1,0 +1,215 @@
+/* ---------- Footer ---------- */
+
+.site-footer {
+  position: relative;
+  overflow: hidden;
+  padding-block: clamp(2.5rem, 5vw, 4rem) 1.5rem;
+  background: var(--color-forest);
+  color: var(--color-cream);
+  border-top: 1px solid var(--color-brass);
+}
+
+.site-footer::before {
+  content: "";
+  position: absolute;
+  inset-inline-end: -10rem;
+  bottom: -16rem;
+  width: 38rem;
+  height: 38rem;
+  border: 1px solid rgba(201, 162, 39, 0.16);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.site-footer > .container-page {
+  position: relative;
+  z-index: 1;
+}
+
+.site-footer__masthead {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(246, 239, 226, 0.16);
+}
+
+.site-footer__kicker {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-latin);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--color-brass);
+}
+
+.site-footer__statement {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 3.1rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--color-cream);
+}
+
+.site-footer__top {
+  display: grid;
+  grid-template-columns: minmax(17rem, 1.1fr) minmax(6rem, 0.4fr) minmax(13rem, 0.75fr);
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 2.25rem;
+}
+
+.site-footer__brand {
+  max-width: 28rem;
+}
+
+.brand--footer .brand__name {
+  color: var(--color-cream);
+}
+
+.brand--footer .brand__sub {
+  color: var(--color-cream-soft);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+}
+
+.brand--footer .brand__logo {
+  border-color: rgba(246, 239, 226, 0.35);
+  background: var(--color-paper);
+}
+
+.site-footer__tagline {
+  margin: 1rem 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-brass);
+}
+
+.site-footer__desc {
+  margin: 0 0 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--color-cream-soft);
+}
+
+.site-footer .btn--whatsapp {
+  background: var(--color-brass);
+  color: var(--color-forest);
+  border-color: var(--color-brass);
+}
+
+.site-footer .btn--whatsapp:hover {
+  background: var(--color-brass-soft);
+  border-color: var(--color-brass-soft);
+  color: var(--color-forest);
+}
+
+.site-footer__nav h2,
+.site-footer__contact h2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-latin);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+}
+
+.site-footer__nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.site-footer__nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-cream-soft);
+  transition: color 0.16s ease, transform 0.16s ease;
+}
+
+.site-footer__nav a:hover {
+  color: var(--color-brass);
+  transform: translateX(-2px);
+}
+
+.site-footer__contact-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--color-cream-soft);
+  transition: color 0.16s ease;
+}
+
+.site-footer__contact-link:hover {
+  color: var(--color-brass);
+}
+
+.site-footer__contact-link svg {
+  flex: none;
+  margin-top: 0.12rem;
+  color: var(--color-brass);
+}
+
+.site-footer__social {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.site-footer__notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 2.5rem;
+  padding-block: 1.35rem;
+  border-top: 1px solid rgba(246, 239, 226, 0.14);
+}
+
+.site-footer__notes p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.75;
+  color: var(--color-cream-soft);
+}
+
+.site-footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(246, 239, 226, 0.14);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--color-cream-soft);
+}
+
+.site-footer__bottom p {
+  margin: 0;
+}
+
+.site-footer__latin {
+  font-family: var(--font-latin);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--color-brass);
+}
+
+.site-footer__source {
+  width: 100%;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--color-cream-soft);
+}

@@ -1,0 +1,199 @@
+/* ---------- Section decoration ---------- */
+
+.section-deco {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.section-deco__base {
+  position: absolute;
+  inset: 0;
+}
+
+.section-deco__inner {
+  position: relative;
+  height: 100%;
+}
+
+.section-deco__logo {
+  position: absolute;
+  inset-block-start: clamp(1.5rem, 4vw, 3.5rem);
+  inset-inline-end: clamp(1.5rem, 4vw, 3.5rem);
+  width: clamp(9rem, 18vw, 16rem);
+  opacity: 0.14;
+}
+
+.section-deco__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Centred with inset-inline + text-align so it lands dead centre in both
+   directions. (A 50% + translateX(-50%) pair drifts by its own width in RTL.) */
+.section-deco__word {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline: 0;
+  transform: translateY(-50%);
+  font-family: var(--font-latin);
+  font-size: clamp(4rem, 12vw, 9rem);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-brass);
+  opacity: 0.11;
+  white-space: nowrap;
+}
+
+.section-deco__arabic {
+  position: absolute;
+  inset-block-end: -0.3em;
+  inset-inline: 0;
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-brass);
+  opacity: 0.10;
+  white-space: nowrap;
+}
+
+.section-deco__year {
+  position: absolute;
+  inset-block-end: 0.5rem;
+  inset-inline-end: 1rem;
+  font-family: var(--font-latin);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  opacity: 0.7;
+}
+
+.section-deco__rule {
+  position: absolute;
+  inset-block-start: clamp(1.15rem, 2.5vw, 1.9rem);
+  inset-inline-start: clamp(1.15rem, 2.5vw, 1.9rem);
+  width: clamp(2rem, 4vw, 3.5rem);
+  height: 1px;
+  background: var(--color-brass);
+  opacity: 0.4;
+}
+
+.section-deco__rule::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 0;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  background: var(--color-brass);
+  transform: rotate(45deg);
+}
+
+@media (max-width: 720px) {
+  .section-deco__word {
+    display: none;
+  }
+  .section-deco__logo {
+    width: 11rem;
+    inset-block-start: 1rem;
+  }
+  .section-deco__logo img {
+    opacity: 0.16;
+  }
+  .section-deco__arabic {
+    font-size: 4.5rem;
+  }
+  .section-deco__year {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-deco__arabic {
+    font-size: 3.4rem;
+  }
+  .section-deco__year {
+    display: none;
+  }
+}
+
+.has-deco {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.has-deco > .section-deco {
+  z-index: 0;
+}
+
+.has-deco > .container-page {
+  position: relative;
+  z-index: 2;
+}
+
+/* ---------- Per-section surface rhythm ----------
+   Alternating light/dark so each section reads as its own room.       */
+
+.featured.has-deco > .section-deco {
+  background: var(--color-limestone);
+  color: var(--color-ink);
+}
+
+.menu-section.has-deco > .section-deco {
+  background: var(--color-forest);
+  color: var(--color-cream);
+}
+
+.story.has-deco > .section-deco {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.gallery.has-deco > .section-deco {
+  background: var(--color-forest);
+  color: var(--color-cream);
+}
+
+.delivery.has-deco > .section-deco {
+  background: var(--color-forest-2);
+  color: var(--color-cream);
+}
+
+.contact.has-deco > .section-deco {
+  background: var(--color-limestone);
+  color: var(--color-ink);
+}
+
+/* Sections keep their own texture behind the decoration. */
+.featured.has-deco,
+.menu-section.has-deco,
+.story.has-deco,
+.delivery.has-deco,
+.gallery.has-deco,
+.contact.has-deco {
+  background: transparent;
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .ember-field,
+  .halftone,
+  .hero__media-wrap,
+  .hero-stamp,
+  .delivery-ticket,
+  .contact-card {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}

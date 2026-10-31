@@ -1,0 +1,284 @@
+﻿/* ---------- Contact ---------- */
+
+.contact {
+  position: relative;
+  background: var(--color-limestone);
+  color: var(--color-ink);
+  border-top: 1px solid var(--color-brass);
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .contact__grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(20rem, 1fr);
+  }
+}
+
+.contact__copy {
+  max-width: 50rem;
+}
+
+.contact__items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.25rem;
+  margin-top: 1.5rem;
+  border-top: none;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1.25rem 1.1rem;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.contact-item:hover {
+  border-color: var(--color-brass);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.contact-item__icon {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  flex: none;
+  border: 1px solid var(--color-brass);
+  color: var(--color-pomegranate);
+}
+
+.contact-item h3 {
+  margin: 0 0 0.22rem;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.contact-item p {
+  margin: 0 0 0.3rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--color-ink-soft);
+}
+
+.contact-item .text-link {
+  font-size: 0.72rem;
+}
+
+.contact-item__hint {
+  font-size: 0.68rem !important;
+  line-height: 1.55 !important;
+  color: var(--color-ink-soft);
+}
+
+.contact-phones {
+  margin: 0.2rem 0 0.5rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.contact-phones__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 2.75rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.contact-phones__link:hover .contact-phones__value {
+  color: var(--color-pomegranate);
+}
+
+.contact-phones__label {
+  font-size: 0.75rem;
+  color: var(--color-ink-soft);
+}
+
+.contact-phones__value {
+  font-family: var(--font-latin);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  font-variant-numeric: tabular-nums;
+  transition: color 0.16s ease;
+}
+
+.contact-social {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.contact-social__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--color-rule-strong);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-ink-soft);
+  transition: border-color 0.16s ease, color 0.16s ease;
+}
+
+.contact-social__link:hover {
+  border-color: var(--color-pomegranate);
+  color: var(--color-pomegranate);
+}
+
+.unconfirmed-badge {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.1rem 0 0.35rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--color-brass);
+  font-size: 0.56rem;
+  font-weight: 600;
+  color: var(--color-pomegranate);
+}
+
+/* ---------- Contact map card ---------- */
+
+.contact-map-card {
+  position: relative;
+  height: 100%;
+  min-height: 26rem;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-forest);
+  box-shadow: var(--shadow-card);
+}
+
+.contact-map-card iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contact-map-card__info {
+  position: absolute;
+  inset-inline: 0.75rem;
+  bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  background: rgba(16, 33, 27, 0.82);
+  color: var(--color-cream);
+  border: 1px solid var(--color-brass);
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(6px);
+  flex-wrap: wrap;
+}
+
+.contact-map-card__info h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-cream);
+}
+
+.contact-map-card__info p {
+  margin: 0.1rem 0 0;
+  font-size: 0.7rem;
+  color: var(--color-cream-soft);
+}
+
+.contact-map-card__info .btn {
+  width: auto;
+  margin: 0;
+}
+/* ---------- Map card phones ---------- */
+
+.contact-map-card__phones {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contact-map-card__phones li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.contact-map-card__phones a {
+  color: var(--color-cream);
+  font-family: var(--font-latin);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-map-card__phones a:hover {
+  color: var(--color-brass);
+}
+
+.contact-map-card__phones span {
+  font-size: 0.62rem;
+  color: var(--color-cream-soft);
+}
+
+/* ---------- Bigger fonts in contact section ---------- */
+
+/* The contact section sits on limestone, so its headline block uses ink
+   tokens. Brass stays decoration-only here. */
+.contact .section-title {
+  font-size: clamp(2.6rem, 5.6vw, 4.4rem);
+  color: var(--color-ink);
+}
+
+.contact .section-title__accent {
+  color: var(--color-pomegranate);
+}
+
+.contact .section-lead {
+  font-size: 1.1rem;
+  color: var(--color-ink-soft);
+}
+
+.contact .eyebrow {
+  color: var(--color-pomegranate);
+}
+
+.contact-item h3 {
+  font-size: 1.2rem;
+}
+
+.contact-item p {
+  font-size: 0.95rem;
+}
+
+.contact-map-card__info h3 {
+  font-size: 1.1rem;
+}
+
+
